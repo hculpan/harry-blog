@@ -1,4 +1,6 @@
 harry-blog
 ==========
 
-This is my blog using the Harp web server
+This is my blog.
+
+This uses the Harp web server.
