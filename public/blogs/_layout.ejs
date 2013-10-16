@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+        <!-- <link rel="stylesheet" type="text/css" href="/assets/css/main.css"> -->
+    </head>
+    <body>
+        <div class="container">
+            <%- partial("../_parts/header") %>
+            <div id="main-content" class="container" role="content">
+                <%- yield %>
+            </div>
+            <%- partial("../_parts/blogsfooter") %>
+        </div>
+    </body>
+</html>
